@@ -1,0 +1,9 @@
+baseURL: ""
+title: "Test Site"
+theme: "PaperMod"
+
+params:
+  defaultTheme: dark
+  profileMode:
+    enabled: true
+    title: "PaperMod is working"
