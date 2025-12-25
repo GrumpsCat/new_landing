@@ -1,3 +1,4 @@
+cat > config.yml <<'EOF'
 baseURL: ""
 title: "Test Site"
 theme: "PaperMod"
@@ -7,3 +8,4 @@ params:
   profileMode:
     enabled: true
     title: "PaperMod is working"
+EOF
