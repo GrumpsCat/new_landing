@@ -1,11 +1,12 @@
-cat > config.yml <<'EOF'
-baseURL: ""
-title: "Test Site"
+baseURL: "https://example.com/"
+title: "New Landing"
 theme: "PaperMod"
 
 params:
   defaultTheme: dark
+  disableThemeToggle: true
+
   profileMode:
     enabled: true
     title: "PaperMod is working"
-EOF
+    subtitle: "Minimal landing page"
